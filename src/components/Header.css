@@ -1,0 +1,74 @@
+.header {
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(4px);
+    border-bottom: 1px solid #ccc;
+    padding: 16px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo-section {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .logo-box {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(to bottom right, #3b82f6, #10b981);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo-text {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .title {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #111;
+  }
+  
+  .subtitle {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .switch-button {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    background-color: white;
+    color: #333;
+    font-size: 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .switch-button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .icon {
+    width: 16px;
+    height: 16px;
+  
+  }
+  

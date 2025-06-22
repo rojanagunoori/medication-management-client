@@ -1,0 +1,183 @@
+/* styles.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to bottom right, #ebf8ff, #f0fff4);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 1024px;
+  width: 100%;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.icon-wrapper {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(to bottom right, #4299e1, #48bb78);
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 1.5rem;
+}
+
+.icon-wrapper svg {
+  width: 40px;
+  height: 40px;
+  color: white;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2d3748;
+  margin-bottom: 1rem;
+}
+
+p.description {
+  font-size: 1.125rem;
+  color: #718096;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.card {
+  border: 2px solid transparent;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+  background-color: #ffffff;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transform: translateY(-4px);
+}
+
+.card:hover.blue {
+  border-color: #bee3f8;
+}
+
+.card:hover.green {
+  border-color: #c6f6d5;
+}
+
+.card-icon {
+  width: 64px;
+  height: 64px;
+  background-color: #ebf8ff;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 1rem;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.card:hover .card-icon.blue {
+  background-color: #bee3f8;
+}
+
+.card:hover .card-icon.green {
+  background-color: #c6f6d5;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2b6cb0;
+  margin-bottom: 0.5rem;
+}
+
+.card.green h3 {
+  color: #2f855a;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #718096;
+  margin-bottom: 1.5rem;
+}
+
+.card ul {
+  text-align: left;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+.card ul li {
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+  position: relative;
+  padding-left: 1.25rem;
+}
+
+.card ul li::before {
+  content: '';
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 0.4rem;
+}
+
+.card.blue ul li::before {
+  background-color: #63b3ed;
+}
+
+.card.green ul li::before {
+  background-color: #68d391;
+}
+
+.card button {
+  background-color: #4299e1;
+  color: white;
+  padding: 0.75rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  width: 100%;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.card.green button {
+  background-color: #48bb78;
+}
+
+.card button:hover {
+  background-color: #3182ce;
+}
+
+.card.green button:hover {
+  background-color: #38a169;
+}
+
+.footer-note {
+  text-align: center;
+  font-size: 0.875rem;
+  color: #a0aec0;
+  margin-top: 3rem;
+}

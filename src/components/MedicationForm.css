@@ -1,0 +1,45 @@
+.medication-form {
+    max-width: 400px;
+    margin: 1rem auto;
+    padding: 1.5rem;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .medication-form h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #333;
+  }
+  
+  .medication-form input {
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+  }
+  
+  .medication-form input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .medication-form button {
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .medication-form button:hover {
+    background-color: #0056b3;
+  }
+  

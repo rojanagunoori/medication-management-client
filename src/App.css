@@ -1,0 +1,18 @@
+/* index.css or App.css (wherever global styles are) */
+html, body, #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+   
+  }
+  
+  #container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(to right, #eff6ff, #f0fdf4);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    
+  }
+  

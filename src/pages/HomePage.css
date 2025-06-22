@@ -1,0 +1,132 @@
+.homepage-container {
+  text-align: center;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #eff6ff, #f0fdf4);
+  min-height: 100vh;
+}
+
+.homepage-container h1 {
+  font-weight: bold;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.homepage-container p {
+  color: hsl(215.4, 16.3%, 46.9%);
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.role-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 64rem;
+  margin: 2rem auto;
+}
+
+.role-card {
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.patient:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-color: #1d4ed8; 
+}
+
+.caretaker:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-color: #15803d; 
+}
+
+.role-card svg {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 1rem;
+}
+
+.patient-icon {
+  background-color: #bfdbfe;
+  padding: 1rem;
+  border-radius: 1rem;
+  display: inline-block;
+}
+
+.caretaker-icon {
+  background-color: #dcfce7;
+  padding: 1rem;
+  border-radius: 1rem;
+  display: inline-block;
+}
+
+.role-card h2 {
+  font-size: 1.5rem;
+  color: #1d4ed8;
+  margin-bottom: 0.5rem;
+}
+
+.role-card.caretaker h2 {
+  color: #15803d;
+}
+
+.role-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+  text-align: left;
+  color: #4b5563;
+}
+
+.role-card li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.patient-circle,
+.caretaker-circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 9999px;
+}
+
+.patient-circle {
+  background-color: #60a5fa;
+}
+
+.caretaker-circle {
+  background-color: #4ade80;
+}
+
+.role-card button {
+  width: 100%;
+  background-color: #2563eb;
+  color: white;
+  font-size: 1rem;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: background-color 0.2s ease;
+}
+
+.role-card.caretaker button {
+  background-color: #16a34a;
+}
+
+.role-card button:hover {
+  background-color: #1e40af;
+}
+
+.role-card.caretaker button:hover {
+  background-color: #15803d;
+}

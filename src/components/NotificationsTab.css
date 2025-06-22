@@ -1,0 +1,174 @@
+/* NotificationsTab.css */
+
+.tab-panel {
+    margin-top: 0.5rem;
+    outline: none;
+  }
+  
+  .section-card {
+    border: 1px solid #ddd;
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .input-group {
+    margin-left: 1.5rem;
+  }
+  
+  .input-label {
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.375rem;
+    font-size: 1rem;
+    margin-top: 0.25rem;
+  }
+  
+  .button-save {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: #16a34a;
+    color: white;
+    border: none;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  .button-save:hover {
+    background-color: #15803d;
+  }
+  
+  .email-preview {
+    background-color: #f9fafb;
+    padding: 1rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    color: #4b5563;
+    text-align: left;
+  }
+ .section-card svg{
+    color: #16a34a;
+ }
+ .section-card .icon{
+    color: blue;
+    font-size: 3rem;
+ }
+  .email-preview p{
+    font-size: 1rem;
+  }
+  .space-y-4 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  /* Toggle Layout */
+  .toggle-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .toggle-labels {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    
+  }
+  .toggle-labels label{
+    font-weight: 700;
+    font-size: 1.1rem;
+  }
+  .toggle-labels p{
+    font-size: 1rem;
+  }
+  
+  .label-title {
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  
+  .label-sub {
+    font-size: 0.875rem;
+    color: #6b7280;
+  }
+  
+  /* Toggle Switch */
+  .toggle-switch {
+    display: inline-flex;
+    align-items: center;
+    width: 44px;
+    height: 24px;
+    background-color: #d1d5db;
+    border-radius: 9999px;
+    border: none;
+    padding: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggle-switch.checked {
+    background-color: #2563eb; /* blue-600 */
+  }
+  
+  .toggle-thumb {
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border-radius: 9999px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  .toggle-switch.unchecked .toggle-thumb {
+    transform: translateX(0);
+  }
+  
+  .toggle-switch.checked .toggle-thumb {
+    transform: translateX(20px);
+  }
+  
+  /* Input Styles */
+  .input-group {
+    margin-left: 1.5rem;
+    text-align: left;
+  }
+  
+  .input-label {
+    font-size: 1rem;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 0.25rem;
+    font-size: 600;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.375rem;
+  }
+  

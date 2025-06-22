@@ -1,0 +1,111 @@
+.dashboard {
+    font-family: sans-serif;
+  }
+  
+  /* Header Section */
+  .dashboard-header {
+    background: linear-gradient(to right, #22c55e, #3b82f6);
+    border-radius: 20px;
+    padding: 32px;
+    color: white;
+    margin-bottom: 32px;
+    margin: 1rem;
+  }
+  
+  .dashboard-header-top {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  
+  .dashboard-icon-box {
+    width: 64px;
+    height: 64px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dashboard-icon {
+    width: 32px;
+    height: 32px;
+    stroke: white;
+  }
+  
+  .dashboard-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .dashboard-subtitle {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.9);
+    margin: 4px 0 0 0;
+  }
+  
+  /* Stats Grid */
+  .dashboard-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+  }
+  
+  .stat-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(6px);
+    border-radius: 12px;
+    padding: 16px;
+    text-align: left;
+  }
+  
+  .stat-value {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .stat-label {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  /* Medication List */
+  .medication-list {
+    padding: 16px;
+  }
+  
+  .medication-list h2 {
+    margin-bottom: 12px;
+  }
+  
+  .medication-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .medication-list li {
+    margin-bottom: 8px;
+    padding: 8px;
+    background: #f9f9f9;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .medication-list button {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .medication-list button:hover {
+    background-color: #2563eb;
+  }
+  
